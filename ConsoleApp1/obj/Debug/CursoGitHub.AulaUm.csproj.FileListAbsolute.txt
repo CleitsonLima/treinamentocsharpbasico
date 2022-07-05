@@ -1,0 +1,8 @@
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\obj\Debug\CursoGitHub.AulaUm.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\obj\Debug\CursoGitHub.AulaUm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\obj\Debug\CursoGitHub.AulaUm.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Aluno\Desktop\cleitson\CursoGitHub\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

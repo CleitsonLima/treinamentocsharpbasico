@@ -22,28 +22,62 @@ namespace CursoGitHub.InterfaceConsole
              * e um espaco reservado na memoria do computador
             */
 
-            string pergunta;
-            string resposta="git init";
+            /* Tipos de Dados
+             * Inteiro - int
+             * Real - double
+             * Texto - string
+             */
 
-            Console.WriteLine("Qual comando para iniciar o Git");
-            pergunta = Console.ReadLine();
-            if (pergunta.Equals(resposta))
+            /* Operadores Aritmeticos
+             * +  -adicao
+             * -  -subtracao
+             * *  -multiplicacao
+             * /  -divisao
+             * %  -modulo(resto da divisao)
+             */
+
+            string comando;
+            string resposta="git remote add origin";
+
+            Console.WriteLine("Qual comando para adicionar o repositorio remoto");
+
+            comando = Console.ReadLine();
+
+            string[] subcomando = comando.Split(' ');
+
+            foreach (var item in subcomando)
             {
-                Console.WriteLine("Acertou");
+                Console.WriteLine(item);
             }
-            else 
+
+            if(subcomando.Length == 2)
             {
-                Console.WriteLine("Errou");
+                if(subcomando[0].Equals("git") && subcomando[1].Equals("remote")) 
+                {
+                    Console.WriteLine("acertou 50%");
+                }
             }
+            else if(subcomando.Length == 4)
+            {
+                if (subcomando[0].Equals("git") && subcomando[1].Equals("remote") && subcomando[2].Equals("add") && subcomando[3].Equals("origin"))
+                {
+                    Console.WriteLine("acertou 100%");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Resposta errada");
+            }
+
             Console.WriteLine($"A resposta é {resposta}");
-
+            
             /*
             Console.WriteLine("Alô Mundo!");
             Console.ReadKey();
             */
 
 
-
+            Console.ReadKey();
         }//fim do metodo;
     }//fim da classe;
 }//fim do namespace;
